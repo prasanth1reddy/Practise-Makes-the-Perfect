@@ -1,0 +1,74 @@
+/* Descendant selector: is denoted with (space) it can access both direct and Indirect child */
+.contain li{
+    background-color: black;
+    color: white;
+    display: flex;
+ justify-content: center;
+}
+
+
+/* child selector: is denoted with (> greater Than )it can access only direct child */
+.containers>.box>li{
+
+    background-color: blue;
+    display: flex;
+ justify-content: center;
+}
+
+/* Adjacent Selector: It is denoted with(+ plus) it can given like next of the immediate element  */
+
+.container+.containers>li{
+ background-color: blueviolet;
+ display: flex;
+ justify-content: center;
+}
+
+
+/* general sibling : it is denoted with (~ TILT)Selects all elements B that are siblings of element A and come after it, sharing the same parent. */
+.list1~li{
+    background-color:green;
+    display: flex;
+ justify-content: center;
+}
+
+
+h3{
+    background-color:skyblue;
+    color: white;
+    display: flex;
+ justify-content: center;
+
+}
+
+
+
+/* pseudo classes: it is denoted with(: colon) that specify a special state of the selected elements.Enable styling based on user interaction, element position, or other dynamic conditions */
+
+.lists{
+    height: 200px;
+    width: 100%;
+    background-color: brown;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+.lists>li{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: azure;
+    border-radius: 50%;
+
+
+}
+
+.lists li: nt{
+    background-color: palevioletred;
+}
