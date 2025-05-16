@@ -37,6 +37,7 @@ h3{
     color: white;
     display: flex;
  justify-content: center;
+ border-radius: 50px;
 
 }
 
@@ -47,17 +48,18 @@ h3{
 .lists{
     height: 200px;
     width: 100%;
-    background-color: brown;
+    background-color: rgb(65, 180, 238);
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 
     
 }
 
 
-.lists>li{
+.lists>li,.para{
     height: 50px;
     width: 50px;
     display: flex;
@@ -69,6 +71,19 @@ h3{
 
 }
 
-.lists li: nt{
-    background-color: palevioletred;
+.lists :nth-child(6){
+    background-color: pink;
+}
+
+
+h2{
+    color:blueviolet;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h3::before{
+    content: "Hello";
+    color: green;
 }
