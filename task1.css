@@ -1,0 +1,67 @@
+.square{
+    height: 700px;
+    width: 700px;
+    background-color: grey;
+    border-left: 5px solid blue;
+    border-bottom: 5px dotted red;
+    border-top: 5px double black;
+    border-right: 5px dashed green;
+    align-content: center;
+}
+
+.square:hover{
+    background-color: aqua;
+}
+
+.rectangle{
+     height: 650px;
+    width: 600px;
+    background-color: dodgerblue;
+    align-content:center ;
+    border-bottom:5px dotted brown ;
+    border-top:5px dashed pink  ;
+    border-left:5px double yellow ;
+    border-right:5px solid white ;
+    align-content: center;
+
+
+}
+
+
+.rectangle:hover{
+    background-color: blueviolet;
+}
+
+
+.ellipse{
+    height: 400px;
+    width: 500px ;
+    background-color: chartreuse;
+    border-radius: 50%;
+    border-top:5px solid black  ;
+    border-bottom:5px dotted gold ;
+    border-left:5px dashed violet ;
+    border-right:5px double red ;
+    align-content: center;
+
+}
+
+.ellipse:hover{
+    background-color: red;
+}
+
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    border-bottom: 5px solid orangered;
+    border-top: 5px double rgba(3, 67, 3, 0.945);
+    border-left: 3px dotted brown;
+    border-right: 5px dashed rebeccapurple;
+}
+
+.circle:hover{
+    background-color: lime;
+}
